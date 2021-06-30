@@ -32,11 +32,12 @@
     "bucklescript",
     "testing"
   ],
-  "dependencies": {
-    "@testing-library/dom": "^7.26.3"
+  "peerDependencies": {
+    "@testing-library/dom": "^8.0.0"
   },
   "devDependencies": {
     "@glennsl/bs-jest": "^0.5.1",
+    "@testing-library/dom": "^8.0.0",
     "@sheerun/mutationobserver-shim": "^0.3.3",
     "@wyze/changelog": "^1.0.0",
     "@wyze/github-release": "^1.1.1",
